@@ -1,0 +1,17 @@
+ion-content {
+background: #FEAC5E;
+background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+
+
+
+}
+
+h2 {
+  color:#000000;
+}
+
+p {
+  text-align: left;
+  font-family: Montserrat
+}
