@@ -9,7 +9,7 @@
 
 	<h2>Trade to Upgrade Loan Calculator App</h2>
 	<p>
-		This is the trade to upgrade loan calculator app.
+		The utilization of the website requires three simple plug-ins, specifically the gadget price, old phone appraised value, and the payment terms. Following the collection of components, the application produces the old phone appraised value, financed amount, and monthly payment. Furthermore, the application functions in such a manner that the interest rate is set to 1.30%.
 	</p>
 
 	<ion-item>
@@ -17,25 +17,49 @@
 		<ion-input type=number [(ngModel)]="gadgetValue"></ion-input>
 	</ion-item>
 
+  <p>
+
+    </p>
+
   <ion-item>
 		<ion-label position="floating">Old Phone Appraised Value:</ion-label>
 		<ion-input type=number [(ngModel)]="oldValue"></ion-input>
 	</ion-item>
+
+  <p>
+
+    </p>
 
   <ion-item>
 		<ion-label position="floating">Payment Terms:</ion-label>
 		<ion-input type=number [(ngModel)]="termValue"></ion-input>
 	</ion-item>
 
+  <p>
+
+    </p>
+
   <button ion-button color="success" (click)="compute()">Compute</button>
+
+  <p>
+
+    </p>
 
 	<ion-item>
 		<h3> Old Phone Appraised Value: {{oldValue | currency: '&#8369;'}} </h3>
 	</ion-item>
  
+  <p>
+
+    </p>
+
 <ion-item>
 		<h4> Financed Amount: {{faValue | currency: '&#8369;'}} </h4>
 	</ion-item>
+
+  <p>
+
+    </p>
 
 <ion-item>
 		<h5> Monthly Payment: {{mpValue | currency: '&#8369;'}} </h5>
