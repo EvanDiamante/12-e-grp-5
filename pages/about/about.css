@@ -11,6 +11,11 @@ h2 {
   font-family: Montserrat;
 }
 
+h6 {
+  font-family: Montserrat;
+  text-align: center;
+}
+
 p {
   text-align: justify;
   font-family: Montserrat;
@@ -20,8 +25,4 @@ ion-item {
 background: #d9a7c7;
 background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
 background: linear-gradient(to right, #fffcdc, #d9a7c7);
-
-
-
-
 }
