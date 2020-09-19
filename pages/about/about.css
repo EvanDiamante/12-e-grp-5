@@ -8,7 +8,7 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
 h2 {
   color:#000000;
   text-align: center;
-  font-family: montserrat;
+  font-family: Montserrat;
 }
 
 p {
@@ -17,9 +17,11 @@ p {
 }
 
 ion-item {
-background: #E0EAFC;
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+background: #d9a7c7;
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+background: linear-gradient(to right, #fffcdc, #d9a7c7);
+
+
 
 
 }
